@@ -1,0 +1,12 @@
+{
+  "name": "anything_store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd admin && yarn start\" \"cd backend && yarn start\" \"cd storefront && yarn dev\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
